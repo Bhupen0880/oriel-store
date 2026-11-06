@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>ORIEL — Objects for sleep, heat, and quiet recovery</title>
+    <meta
+      name="description"
+      content="Twelve trending recovery objects: a sunrise lamp, red-light panel, sauna blanket, cold pail, and the rest of a calmer evening. Demo store by @King088_."
+    />
+    <meta name="author" content="@King088_" />
+    <meta name="theme-color" content="#f3eee6" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://bhupen0880.github.io/oriel-store/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bhupen0880.github.io/oriel-store/" />
+    <meta property="og:title" content="ORIEL — Put the phone in another room" />
+    <meta
+      property="og:description"
+      content="A twelve-piece edit for sleep, heat, cold, and red light. Demo store designed by @King088_."
+    />
+    <meta property="og:image" content="https://bhupen0880.github.io/oriel-store/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ORIEL wordmark beside a bone-ceramic sunrise lamp glowing in a quiet bedroom" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ORIEL — Put the phone in another room" />
+    <meta
+      name="twitter:description"
+      content="A twelve-piece edit for sleep, heat, cold, and red light. Demo store designed by @King088_."
+    />
+    <meta name="twitter:image" content="https://bhupen0880.github.io/oriel-store/og.jpg" />
+    <meta name="twitter:image:alt" content="ORIEL wordmark beside a bone-ceramic sunrise lamp glowing in a quiet bedroom" />
+    <meta name="twitter:creator" content="@King088_" />
+    <link rel="icon" href="%BASE_URL%favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="%BASE_URL%favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="%BASE_URL%images/apple-touch.png" />
+    <link rel="preload" as="image" href="%BASE_URL%images/hero.jpg" fetchpriority="high" />
+    <link rel="preload" href="%BASE_URL%fonts/fraunces-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="%BASE_URL%fonts/outfit-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "OnlineStore",
+            "name": "ORIEL",
+            "description": "Demo storefront of twelve objects for sleep, heat, cold, and red-light recovery. Nothing is for sale.",
+            "brand": { "@type": "Brand", "name": "ORIEL" }
+          },
+          {
+            "@type": "ItemList",
+            "name": "Trending this week",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Field Panel" },
+              { "@type": "ListItem", "position": 2, "name": "The Aperture" },
+              { "@type": "ListItem", "position": 3, "name": "The Kiln" },
+              { "@type": "ListItem", "position": 4, "name": "Halo Band" },
+              { "@type": "ListItem", "position": 5, "name": "Meridian Boots" },
+              { "@type": "ListItem", "position": 6, "name": "Ember Wand" },
+              { "@type": "ListItem", "position": 7, "name": "Contrast Pail" },
+              { "@type": "ListItem", "position": 8, "name": "River" },
+              { "@type": "ListItem", "position": 9, "name": "Still" },
+              { "@type": "ListItem", "position": 10, "name": "Veil" },
+              { "@type": "ListItem", "position": 11, "name": "Brass Mist" },
+              { "@type": "ListItem", "position": 12, "name": "Night Salt" }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#edit">Skip to the edit</a>
+    <header class="site-header">
+      <div class="header-bar">
+        <a class="brand" href="#top" aria-label="ORIEL, home">
+          <svg viewBox="0 0 16 24" aria-hidden="true">
+            <rect x="6" y="1" width="4" height="22" rx="2" fill="currentColor" />
+          </svg>
+          <span>Oriel</span>
+        </a>
+        <nav class="primary-nav" aria-label="Primary">
+          <a href="#edit">The edit</a>
+          <a href="#ritual">Ritual</a>
+          <a href="#care">Care</a>
+        </nav>
+        <button class="bag" id="open-cart" type="button" aria-haspopup="dialog" aria-controls="cart-dialog">
+          <span class="bag-label">Bag</span>
+          <span class="bag-count" id="bag-count">0</span>
+        </button>
+      </div>
+      <nav class="mobile-nav" aria-label="Sections">
+        <a href="#edit">Edit</a>
+        <a href="#ritual">Ritual</a>
+        <a href="#care">Care</a>
+        <a href="#letter">Notes</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <noscript>
+        <p class="noscript">The edit is all here. Adding to the bag needs JavaScript.</p>
+      </noscript>
+
+      <div id="shop">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="kicker">The November edit</p>
+            <h1 id="hero-title">Put the phone <em>in another room.</em></h1>
+            <p class="dek">
+              Red light, slow dawns, heat you can fold, and cold that fits in a bathroom. Twelve objects for the hours between waking and scrolling.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#edit">Shop the edit</a>
+              <a class="btn ghost" href="#ritual">The ritual</a>
+            </div>
+            <p class="kicker hero-note">Complimentary shipping over $150</p>
+          </div>
+          <div class="hero-media">
+            <img
+              src="%BASE_URL%images/hero.jpg"
+              width="1280"
+              height="720"
+              alt="A bone stoneware lamp with a vertical slit of warm light on an oak nightstand beside linen bedding at dawn"
+              fetchpriority="high"
+            />
+            <a class="photo-caption" href="#product/aperture">The Aperture · $168</a>
+          </div>
+        </section>
+
+        <section id="edit" class="wrap" aria-labelledby="edit-title">
+          <div class="edit-layout">
+            <aside class="edit-aside">
+              <p class="kicker">Trending this week</p>
+              <h2 id="edit-title">The objects people are actually buying.</h2>
+              <p class="lede">
+                Sunrise lamps, red light, and heat you can put away moved out of the athlete group chat and into ordinary rooms. This is the November edit.
+              </p>
+              <div class="filters" role="group" aria-label="Filter by category">
+                <button type="button" data-filter="all" aria-pressed="true">
+                  <span class="fname">All</span><span class="count">12</span>
+                </button>
+                <button type="button" data-filter="light" aria-pressed="false">
+                  <span class="fname">Light</span><span class="count">2</span>
+                </button>
+                <button type="button" data-filter="sleep" aria-pressed="false">
+                  <span class="fname">Sleep</span><span class="count">4</span>
+                </button>
+                <button type="button" data-filter="heat" aria-pressed="false">
+                  <span class="fname">Heat</span><span class="count">1</span>
+                </button>
+                <button type="button" data-filter="cold" aria-pressed="false">
+                  <span class="fname">Cold</span><span class="count">1</span>
+                </button>
+                <button type="button" data-filter="recovery" aria-pressed="false">
+                  <span class="fname">Recovery</span><span class="count">3</span>
+                </button>
+                <button type="button" data-filter="wear" aria-pressed="false">
+                  <span class="fname">Wear</span><span class="count">1</span>
+                </button>
+              </div>
+              <p class="result-count" id="result-count" aria-live="polite">Twelve objects</p>
+            </aside>
+
+            <div class="products">
+              <article class="product" data-product="field" data-name="Field Panel" data-price="468" data-category="recovery" data-catlabel="Recovery">
+                <a class="product-link" href="#product/field">
+                  <div class="product-media">
+                    <img src="%BASE_URL%images/field.jpg" width="864" height="1152" alt="A tall charcoal panel of red LEDs on a slim stand in a dim room" />
+                    <span class="index" aria-hidden="true">01</span>
+                    <span class="flag">Trending</span>
+                  </div>
+                  <div class="product-row">
+                    <div>
+                      <span class="kicker">Recovery</span>
+                      <h3>Field Panel</h3>
+                    </div>
+                    <span class="price">$468</span>
+                  </div>
+                </a>
+                <p class="benefit">A full panel for the days a wand isn’t enough.</p>
+                <button class="add" type="button" data-add="field">Add to bag</button>
+                <div class="more" hidden>
+                  <p>It stands on the floor and covers you from thigh to shoulder. Red and near-infrared, ten to twelve minutes, then you get on with the evening. No app, no account, no garage-gym footprint.</p>
+                  <ul>
+                    <li>Red and 850nm near-infrared array</li>
+                    <li>Built-in timer and a floor stand</li>
+                    <li>Sized for an apartment, not a studio</li>
+                  </ul>
+                  <p class="why"><strong>In the edit.</strong> Panels are the home-recovery object of the year. This is the one that fits a room you also live in.</p>
+                </div>
+              </article>
+
+              <article class="product" data-product="aperture" data-name="The Aperture" data-price="168" data-category="light" data-catlabel="Light">
+                <a class="product-link" href="#product/aperture">
+                  <div class="product-media">
+                    <img src="%BASE_URL%images/aperture.jpg" width="864" height="1152" alt="Speckled bone stoneware lamp with a narrow vertical slit of amber light and a coiled linen cord" loading="lazy" />
+                    <span class="index" aria-hidden="true">02</span>
+                  </div>
+                  <div class="product-row">
+                    <div>
+                      <span class="kicker">Light</span>
+                      <h3>The Aperture</h3>
+                    </div>
+                    <span class="price">$168</span>
+                  </div>
+                </a>
+                <p class="benefit">A sunrise you can set, and a morning that doesn’t start with a siren.</p>
+                <button class="add" type="button" data-add="aperture">Add to bag</button>
+                <div class="more" hidden>
+                  <p>Bone stoneware, one vertical slit, and a dawn that climbs from ember to daylight over thirty minutes. Set it once. Leave the phone in the kitchen.</p>
+                  <ul>
+                    <li>30-minute dawn, 20-minute dusk</li>
+                    <li>Warm 1800K to 4000K</li>
+                    <li>Matte stoneware and a linen cord</li>
+                  </ul>
+                  <p class="why"><strong>In the edit.</strong> Gradual sunrise lamps are replacing the harsh alarm. People want a morning that doesn’t begin on a screen.</p>
+                </div>
+              </article>
+
+              <article class="product" data-product="kiln" data-name="The Kiln" data-price="589" data-category="heat" data-catlabel="Heat">
+                <a class="product-link" href="#product/kiln">
+                  <div class="product-media">
+                    <img src="%BASE_URL%images/kiln.jpg" width="864" height="1152" alt="A folded charcoal wool blanket with copper piping on a pale oak floor" loading="lazy" />
+                    <span class="index" aria-hidden="true">03</span>
+                  </div>
+                  <div class="product-row">
+                    <div>
+                      <span class="kicker">Heat</span>
+                      <h3>The Kiln</h3>
+                    </div>
+                    <span class="price">$589</span>
+                  </div>
+                </a>
+                <p class="benefit">Sauna heat that folds into a cupboard.</p>
+                <button class="add" type="button" data-add="kiln">Add to bag</button>
+                <div class="more" hidden>
+                  <p>An infrared blanket you unroll on a mat. It gets properly warm, stays where you put it, and packs flatter than a weekender. A towel and a glass of water are the whole ritual.</p>
+                  <ul>
+                    <li>Far-infrared wires, three heat levels</li>
+                    <li>Charcoal wool-blend shell with copper piping</li>
+                    <li>60-minute timer and auto shutoff</li>
+                  </ul>
+                  <p class="why"><strong>In the edit.</strong> Portable sauna blankets crossed from athlete circles into ordinary evenings. Heat, without a renovation.</p>
+                </div>
+              </article>
+
+              <article class="product" data-product="halo" data-name="Halo Band" data-price="229" data-category="wear" data-catlabel="Wear">
+                <a class="product-link" href="#product/halo">
+                  <div class="product-media">
+                    <img src="%BASE_URL%images/halo.jpg" width="864" height="1152" alt="A slim bone-ceramic band with a single dark tick, resting on oatmeal linen" loading="lazy" />
+                    <span class="index" aria-hidden="true">04</span>
+                  </div>
+                  <div class="product-row">
+                    <div>
+                      <span class="kicker">Wear</span>
+                      <h3>Halo Band</h3>
+                    </div>
+                    <span class="price">$229</span>
+                  </div>
+                </a>
+                <p class="benefit">Sleep and pulse, on a band that looks like jewelry.</p>
+                <button class="add" type="button" data-add="halo">Add to bag</button>
+                <div class="more" hidden>
+                  <p>Matte ceramic, a hidden hinge, and a single tick instead of a glowing screen. It keeps sleep duration, resting pulse, and a plain readiness mark for the morning. You check it when you want.</p>
+                  <ul>
+                    <li>Bone ceramic shell</li>
+                    <li>About six days between charges</li>
+                    <li>No feed, and no buzz for sport</li>
+                  </ul>
+                  <p class="why"><strong>In the edit.</strong> Discreet recovery wearables are the ones people will actually wear to dinner.</p>
+                </div>
+              </article>
+
+              <article class="product" data-product="boots" data-name="Meridian Boots" data-price="640" data-category="recovery" data-catlabel="Recovery">
+                <a class="product-link" href="#product/boots">
+                  <div class="product-media">
+                    <img src="%BASE_URL%images/boots.jpg" width="864" height="1152" alt="A pair of soft taupe compression boots standing on an oak floor in window light" loading="lazy" />
+                    <span class="index" aria-hidden="true">05</span>
+                  </div>
+                  <div class="product-row">
+                    <div>
+                      <span class="kicker">Recovery</span>
+                      <h3>Meridian Boots</h3>
+                    </div>
+                    <span class="price">$640</span>
+                  </div>
+                </a>
+                <p class="benefit">Legs up, pressure moving, nothing to scroll.</p>
+                <button class="add" type="button" data-add="boots">Add to bag</button>
+                <div class="more" hidden>
+                  <p>Sequential compression in a soft taupe that doesn’t look like a clinic. The pump sits in the cuff. Twenty minutes on the floor, lights low, ankles to knees.</p>
+                  <ul>
+                    <li>Four chambers, three intensities</li>
+                    <li>Soft-touch shell, easy-clean lining</li>
+                    <li>20-minute session, pump in the cuff</li>
+                  </ul>
+                  <p class="why"><strong>In the edit.</strong> Compression boots followed sauna blankets out of elite locker rooms. This pair is built to be left by the door.</p>
+                </div>
+              </article>
+
+              <article class="product" data-product="ember" data-name="Ember Wand" data-price="158" data-category="light" data-catlabel="Light">
+                <a class="product-link" href="#product/ember">
+                  <div class="product-media">
+                    <img src="%BASE_URL%images/ember.jpg" width="864" height="1152" alt="A clay-colored handheld wand with a circle of red LEDs glowing on dark walnut" loading="lazy" />
+                    <span class="index" aria-hidden="true">06</span>
+                  </div>
+                  <div class="product-row">
+                    <div>
+                      <span class="kicker">Light</span>
+                      <h3>Ember Wand</h3>
+                    </div>
+                    <span class="price">$158</span>
+                  </div>
+                </a>
+                <p class="benefit">Ten quiet minutes of red light for a jaw, a knee, a tired face.</p>
+                <button class="add" type="button" data-add="ember">Add to bag</button>
+                <div class="more" hidden>
+                  <p>A hand-sized wand, clay aluminum, red and near-infrared behind diffused glass. Meant for the chair, not a clinic. Use it while the kettle boils.</p>
+                  <ul>
+                    <li>Red 630–660nm and near-infrared 830nm</li>
+                    <li>Eight-minute auto-off</li>
+                    <li>USB-C, matte clay aluminum</li>
+                  </ul>
+                  <p class="why"><strong>In the edit.</strong> Red light moved from spas into bedside drawers. The wand is the piece people actually finish.</p>
+                </div>
+              </article>
+
+              <article class="product" data-product="pail" data-name="Contrast Pail" data-price="124" data-category="cold" data-catlabel="Cold">
+                <a class="product-link" href="#product/pail">
+                  <div class="product-media">
+                    <img src="%BASE_URL%images/pail.jpg" width="864" height="1152" alt="A matte charcoal pail of ice water with a brass handle and its lid beside it" loading="lazy" />
+                    <span class="index" aria-hidden="true">07</span>
+                  </div>
+                  <div class="product-row">
+                    <div>
+                      <span class="kicker">Cold</span>
+                      <h3>Contrast Pail</h3>
+                    </div>
+                    <span class="price">$124</span>
+                  </div>
+                </a>
+                <p class="benefit">Cold for calves and wrists, not your spare room.</p>
+                <button class="add" type="button" data-add="pail">Add to bag</button>
+                <div class="more" hidden>
+                  <p>A deep insulated pail with a brass handle. Fill it with cold water and ice. Feet, forearms, or a post-run soak while you sit on the bath mat. The lid doubles as a seat.</p>
+                  <ul>
+                    <li>Double wall, 18 litres, matte charcoal</li>
+                    <li>Brass handle</li>
+                    <li>Lid doubles as a seat</li>
+                  </ul>
+                  <p class="why"><strong>In the edit.</strong> Cold plunges went mainstream, then ran into floor plans. Limb baths are how most people actually start.</p>
+                </div>
+              </article>
+
+              <article class="product" data-product="river" data-name="River" data-price="148" data-category="sleep" data-catlabel="Sleep">
+                <a class="product-link" href="#product/river">
+                  <div class="product-media">
+                    <img src="%BASE_URL%images/river.jpg" width="864" height="1152" alt="Stone-grey eucalyptus sheets rumpled on a low bed in morning light" loading="lazy" />
+                    <span class="index" aria-hidden="true">08</span>
+                  </div>
+                  <div class="product-row">
+                    <div>
+                      <span class="kicker">Sleep</span>
+                      <h3>River</h3>
+                    </div>
+                    <span class="price">$148</span>
+                  </div>
+                </a>
+                <p class="benefit">Sheets that stay cool when you don’t.</p>
+                <button class="add" type="button" data-add="river">Add to bag</button>
+                <div class="more" hidden>
+                  <p>Eucalyptus lyocell with a dry, stonewashed hand. They breathe, they drape, and they don’t trap the heat you spent the evening trying to lose. This set is the Stone colorway.</p>
+                  <ul>
+                    <li>100% eucalyptus lyocell</li>
+                    <li>Stone colorway</li>
+                    <li>Fitted sheet, flat sheet, two pillowcases</li>
+                  </ul>
+                  <p class="why"><strong>In the edit.</strong> Temperature is the sleep conversation right now. Cooling bedding is the piece that doesn’t need a plug.</p>
+                </div>
+              </article>
+
+              <article class="product" data-product="still" data-name="Still" data-price="189" data-category="recovery" data-catlabel="Recovery">
+                <a class="product-link" href="#product/still">
+                  <div class="product-media">
+                    <img src="%BASE_URL%images/still.jpg" width="864" height="1152" alt="A matte olive percussive massager and a spare head on pale limestone" loading="lazy" />
+                    <span class="index" aria-hidden="true">09</span>
+                  </div>
+                  <div class="product-row">
+                    <div>
+                      <span class="kicker">Recovery</span>
+                      <h3>Still</h3>
+                    </div>
+                    <span class="price">$189</span>
+                  </div>
+                </a>
+                <p class="benefit">The knot leaves. The room stays quiet.</p>
+                <button class="add" type="button" data-add="still">Add to bag</button>
+                <div class="more" hidden>
+                  <p>A percussive massager in a lower pitch, finished like a tool you’ll leave on the table. Three speeds, two heads, a drawer instead of a charging shrine.</p>
+                  <ul>
+                    <li>Three speeds, quiet housing</li>
+                    <li>Broad head and a thumb head</li>
+                    <li>USB-C, about six hours a charge</li>
+                  </ul>
+                  <p class="why"><strong>In the edit.</strong> Percussion is mainstream. The loud ones are getting left in the closet. Quiet is the upgrade.</p>
+                </div>
+              </article>
+
+              <article class="product" data-product="veil" data-name="Veil" data-price="64" data-category="sleep" data-catlabel="Sleep">
+                <a class="product-link" href="#product/veil">
+                  <div class="product-media">
+                    <img src="%BASE_URL%images/veil.jpg" width="864" height="1152" alt="A champagne silk sleep mask and a small silk weight pouch on limestone" loading="lazy" />
+                    <span class="index" aria-hidden="true">10</span>
+                  </div>
+                  <div class="product-row">
+                    <div>
+                      <span class="kicker">Sleep</span>
+                      <h3>Veil</h3>
+                    </div>
+                    <span class="price">$64</span>
+                  </div>
+                </a>
+                <p class="benefit">Darkness, without pressure on your lashes.</p>
+                <button class="add" type="button" data-add="veil">Add to bag</button>
+                <div class="more" hidden>
+                  <p>Mulberry silk on the face and a little weight across the brow. It blocks the standby lights and the streetlamp without the pinch of a travel mask.</p>
+                  <ul>
+                    <li>22-momme silk face</li>
+                    <li>Removable flax-seed weight</li>
+                    <li>Wide strap</li>
+                  </ul>
+                  <p class="why"><strong>In the edit.</strong> City bedrooms keep getting brighter. A mask you will actually wear is back in the edit.</p>
+                </div>
+              </article>
+
+              <article class="product" data-product="mist" data-name="Brass Mist" data-price="92" data-category="sleep" data-catlabel="Sleep">
+                <a class="product-link" href="#product/mist">
+                  <div class="product-media">
+                    <img src="%BASE_URL%images/mist.jpg" width="864" height="1152" alt="A round unlacquered brass vessel with a thread of mist, on green marble beside cedar" loading="lazy" />
+                    <span class="index" aria-hidden="true">11</span>
+                  </div>
+                  <div class="product-row">
+                    <div>
+                      <span class="kicker">Sleep</span>
+                      <h3>Brass Mist</h3>
+                    </div>
+                    <span class="price">$92</span>
+                  </div>
+                </a>
+                <p class="benefit">One scent, then the device goes dark.</p>
+                <button class="add" type="button" data-add="mist">Add to bag</button>
+                <div class="more" hidden>
+                  <p>A heavy unlacquered brass vessel and a 90-minute cutoff. No colored lights. It will patina. It is supposed to.</p>
+                  <ul>
+                    <li>Solid brass, unlacquered</li>
+                    <li>90-minute auto-off</li>
+                    <li>Quiet ultrasonic plate, 80ml</li>
+                  </ul>
+                  <p class="why"><strong>In the edit.</strong> Wind-down objects are splitting away from gadget diffusers. Weight and warm metal read as furniture.</p>
+                </div>
+              </article>
+
+              <article class="product" data-product="salt" data-name="Night Salt" data-price="36" data-category="sleep" data-catlabel="Sleep">
+                <a class="product-link" href="#product/salt">
+                  <div class="product-media">
+                    <img src="%BASE_URL%images/salt.jpg" width="864" height="1152" alt="A speckled ceramic jar of pale bath flakes with a wooden spoon and a cedar sprig" loading="lazy" />
+                    <span class="index" aria-hidden="true">12</span>
+                  </div>
+                  <div class="product-row">
+                    <div>
+                      <span class="kicker">Sleep</span>
+                      <h3>Night Salt</h3>
+                    </div>
+                    <span class="price">$36</span>
+                  </div>
+                </a>
+                <p class="benefit">A magnesium soak that makes the evening feel finished.</p>
+                <button class="add" type="button" data-add="salt">Add to bag</button>
+                <div class="more" hidden>
+                  <p>Flaked magnesium chloride with a little cedar. One handful in hot water, twenty minutes, and the day has a last line. The point is the ritual as much as the mineral.</p>
+                  <ul>
+                    <li>Magnesium chloride flakes</li>
+                    <li>A little cedar oil</li>
+                    <li>800g, about eight baths</li>
+                  </ul>
+                  <p class="why"><strong>In the edit.</strong> Magnesium is the sleeper ritual of the year, and a bath is the version people don’t forget.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="ritual" class="wrap" aria-labelledby="ritual-title">
+          <div class="section-head">
+            <p class="kicker">A day with the edit</p>
+            <h2 id="ritual-title">Three hours that do more than a feed.</h2>
+          </div>
+          <ol class="hours">
+            <li>
+              <p class="time">06:40</p>
+              <h3>Dawn</h3>
+              <p>
+                <a href="#product/aperture">The Aperture</a> climbs for half an hour. You are up before the lock screen.
+                <a href="#product/veil">Veil</a> is on the nightstand if the streetlamp is rude.
+                <a href="#product/river">River</a> is already cool.
+              </p>
+            </li>
+            <li>
+              <p class="time">17:10</p>
+              <h3>Reset</h3>
+              <p>
+                <a href="#product/field">Field Panel</a>, or the <a href="#product/ember">Ember Wand</a> if the day was smaller than that. Ten minutes with the door closed.
+                <a href="#product/still">Still</a>, if it settled in your shoulders.
+              </p>
+            </li>
+            <li>
+              <p class="time">21:30</p>
+              <h3>After</h3>
+              <p>
+                <a href="#product/kiln">The Kiln</a> or the <a href="#product/pail">Contrast Pail</a> — heat or cold, not both in a rush.
+                <a href="#product/mist">Brass Mist</a> on, <a href="#product/salt">Night Salt</a> if there’s a bath, <a href="#product/halo">Halo</a> on the dresser. The phone charges in the kitchen.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section id="care" class="wrap" aria-labelledby="care-title">
+          <div class="section-head">
+            <p class="kicker">The practical part</p>
+            <h2 id="care-title">Care, stated plainly.</h2>
+          </div>
+          <div class="care-grid">
+            <article>
+              <p class="kicker">01 — Shipping</p>
+              <h3>Packed to arrive calm.</h3>
+              <p>Paper wrap, no plastic fill. Complimentary shipping on orders over $150, and $12 below that. Dispatch in two to four days.</p>
+            </article>
+            <article>
+              <p class="kicker">02 — Returns</p>
+              <h3>Thirty days to change your mind.</h3>
+              <p>Unused pieces come back in the original wrap. Opened Night Salt stays with you. Everything else has a month.</p>
+            </article>
+            <article>
+              <p class="kicker">03 — Checkout</p>
+              <h3>No card on this demo.</h3>
+              <p>A live register would hand payment to a tokenized processor and keep nothing here. On this storefront the order is confirmed in your browser. You will not be charged.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="letter" class="letter" aria-labelledby="letter-title">
+          <div class="wrap">
+            <p class="kicker">A short list</p>
+            <h2 id="letter-title">A note when the edit changes.</h2>
+            <p class="dek">No weekly blast. We write when a new object earns a place.</p>
+            <form id="letter-form" novalidate>
+              <div class="letter-form">
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="you@domain.com" required />
+                </div>
+                <button class="btn" type="submit">Join the list</button>
+              </div>
+              <p class="error" id="letter-error" role="alert"></p>
+              <p class="fine">Saved only in this browser. Nothing is sent to a server.</p>
+            </form>
+            <p class="success" id="letter-success" hidden>You’re on the list. We’ll write when the edit changes.</p>
+          </div>
+        </section>
+      </div>
+
+      <section id="checkout" class="checkout" hidden>
+        <div class="inner" id="checkout-inner"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">Oriel</p>
+          <p>Objects for the hours between. Sleep, heat, cold, and the red light in the middle.</p>
+        </div>
+        <div>
+          <h2>Visit</h2>
+          <ul>
+            <li><a href="#edit">The edit</a></li>
+            <li><a href="#ritual">Ritual</a></li>
+            <li><a href="#care">Care</a></li>
+            <li><a href="#letter">Notes</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Care</h2>
+          <ul>
+            <li><a href="#care">Shipping</a></li>
+            <li><a href="#care">Returns</a></li>
+            <li><a href="#care">Checkout</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Colophon</h2>
+          <ul>
+            <li>Fraunces &amp; Outfit</li>
+            <li>Twelve objects</li>
+            <li>November edit</li>
+          </ul>
+        </div>
+      </div>
+      <div class="legal">
+        <p class="credit">Demo store designed by <a href="https://x.com/King088_" rel="noopener noreferrer">@King088_</a></p>
+        <p>A portfolio piece. Nothing is for sale and nothing ships.</p>
+      </div>
+    </footer>
+
+    <dialog id="product-dialog" aria-labelledby="product-title">
+      <div class="product-layout">
+        <div class="product-photo">
+          <img id="product-image" alt="" width="864" height="1152" />
+        </div>
+        <div class="product-copy">
+          <button class="close" type="button" data-close="product" aria-label="Close product">×</button>
+          <p class="kicker" id="product-cat"></p>
+          <h2 id="product-title" tabindex="-1"></h2>
+          <p class="price" id="product-price"></p>
+          <p class="benefit" id="product-benefit"></p>
+          <div id="product-more"></div>
+          <div class="buy-row">
+            <div class="qty" role="group" aria-label="Quantity">
+              <button type="button" id="qty-dec" aria-label="Decrease quantity">−</button>
+              <span id="qty-val">1</span>
+              <button type="button" id="qty-inc" aria-label="Increase quantity">+</button>
+            </div>
+            <button class="btn" type="button" id="product-add">Add to bag</button>
+          </div>
+          <p class="fine" id="product-fine"></p>
+          <div class="also">
+            <p class="kicker">Also in the edit</p>
+            <div class="related" id="product-related"></div>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog id="cart-dialog" aria-labelledby="cart-title">
+      <div class="cart-shell">
+        <header class="cart-head">
+          <h2 id="cart-title" tabindex="-1">Your bag</h2>
+          <button class="close" type="button" data-close="cart" aria-label="Close bag">×</button>
+        </header>
+        <div class="cart-body" id="cart-body"></div>
+        <footer class="cart-foot" id="cart-foot" hidden>
+          <div class="totals" id="cart-totals"></div>
+          <p class="ship-note" id="ship-note"></p>
+          <p class="fine">Demo checkout. You won’t be charged.</p>
+          <button class="btn full" type="button" id="checkout-btn">Checkout</button>
+        </footer>
+      </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="./js/store.js"></script>
+  </body>
+</html>

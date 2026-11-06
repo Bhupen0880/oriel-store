@@ -1,0 +1,14 @@
+{
+  "name": "oriel",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ORIEL — a demo storefront of objects for sleep, heat, cold, and quiet recovery.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4721",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4721"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
